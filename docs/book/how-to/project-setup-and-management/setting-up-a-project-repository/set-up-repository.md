@@ -35,7 +35,7 @@ While it doesn't matter how you structure your ZenML project, here is a recommen
 ```
 
 All ZenML [Project
-templates](using-project-templates.md#generating-project-from-a-project-template)
+templates](using-project-templates.md#using-a-project-template)
 are modeled around this basic structure. The `steps` and `pipelines` folders
 contain the steps and pipelines defined in your project. If your project is
 simpler you can also just keep your steps at the top level of the `steps` folder
