@@ -24,7 +24,7 @@ High-level overview of the changes:
 
 ## ZenML takes over the Metadata Store role
 
-ZenML can now run [as a server](../../../../getting-started/core-concepts.md#zenml-server-and-dashboard) that can be accessed via a REST API and also comes with a visual user interface (called the ZenML Dashboard). This server can be deployed in arbitrary environments (local, on-prem, via Docker, on AWS, GCP, Azure etc.) and supports user management, workspace scoping, and more.
+ZenML can now run [as a server](../../../../getting-started/core-concepts.md#zenml-server) that can be accessed via a REST API and also comes with a visual user interface (called the ZenML Dashboard). This server can be deployed in arbitrary environments (local, on-prem, via Docker, on AWS, GCP, Azure etc.) and supports user management, workspace scoping, and more.
 
 The release introduces a series of commands to facilitate managing the lifecycle of the ZenML server and to access the pipeline and pipeline run information:
 
