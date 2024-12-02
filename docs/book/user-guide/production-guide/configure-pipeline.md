@@ -43,7 +43,7 @@ settings:
       - pyarrow
 ```
 
-The first section is the so-called `settings` of the pipeline. This section has a `docker` key, which controls the [containerization process](cloud-orchestration.md#orchestrating-pipelines-on-the-cloud). Here, we are simply telling ZenML that we need `pyarrow` as a pip requirement, and we want to enable the `sklearn` integration of ZenML, which will in turn install the `scikit-learn` library. This Docker section can be populated with many different options, and correspond to the [DockerSettings](https://sdkdocs.zenml.io/latest/core\_code\_docs/core-config/#zenml.config.docker\_settings.DockerSettings) class in the Python SDK.
+The first section is the so-called `settings` of the pipeline. This section has a `docker` key, which controls the [containerization process](cloud-orchestration.md#running-a-pipeline-on-a-cloud-stack). Here, we are simply telling ZenML that we need `pyarrow` as a pip requirement, and we want to enable the `sklearn` integration of ZenML, which will in turn install the `scikit-learn` library. This Docker section can be populated with many different options, and correspond to the [DockerSettings](https://sdkdocs.zenml.io/latest/core\_code\_docs/core-config/#zenml.config.docker\_settings.DockerSettings) class in the Python SDK.
 
 ### Associating a ZenML Model
 
