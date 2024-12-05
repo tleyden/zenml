@@ -19,7 +19,7 @@ We suggest going through the following checklist before asking for help:
 
     ![Searching on docs page.](../.gitbook/assets/doc_search_bar.png)
 * Check out the [common errors](debug-and-solve-issues.md#most-common-errors) section below.
-* Understand the problem by studying the [additional logs](debug-and-solve-issues.md#41-additional-logs) and [client/server logs](debug-and-solve-issues.md#client-and-server-logs).
+* Understand the problem by studying the [additional logs](debug-and-solve-issues.md#id-4.-relevant-log-output) and [client/server logs](debug-and-solve-issues.md#client-and-server-logs).
 
 Chances are you'd find your answers there. If you can't find any clue, then it's time to post your question on [Slack](https://zenml.io/slack).
 
