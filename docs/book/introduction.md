@@ -98,7 +98,7 @@ Ready to develop production-ready code with ZenML? Here is a collection of pages
 {% tab title="For ML Engineers" %}
 ZenML empowers ML engineers to take ownership of the entire ML lifecycle end-to-end. Adopting ZenML means fewer handover points and more visibility on what is happening in your organization.
 
-*   **ML Lifecycle Management:** ZenML's abstractions enable you to manage sophisticated ML setups with ease. After you define your ML workflows as [Pipelines](getting-started/core-concepts.md#1-development) and your development, staging, and production infrastructures as [Stacks](getting-started/core-concepts.md#2-execution), you can move entire ML workflows to different environments in seconds.
+*   **ML Lifecycle Management:** ZenML's abstractions enable you to manage sophisticated ML setups with ease. After you define your ML workflows as [Pipelines](getting-started/core-concepts.md#id-1.-development) and your development, staging, and production infrastructures as [Stacks](getting-started/core-concepts.md#2-execution), you can move entire ML workflows to different environments in seconds.
 
     ```bash
     zenml stack set staging
